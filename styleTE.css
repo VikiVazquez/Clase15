@@ -1,0 +1,664 @@
+* {margin: 0;
+    padding: 0;
+             box-sizing: border-box;}
+
+.caja{
+        min-width: 200px;
+        width: 100%; ;
+        margin: auto;
+        border-style: none;}
+
+
+/*INICIO*/
+
+#primerFondo{ background-color:  rgb(233, 227, 227) ;
+            height: 100px; 
+            width: 100%;
+            border-bottom: 3px solid rgb(197, 82, 82);
+       } 
+.logo {margin: 7px 3px 1px 25px;
+            padding: 3px;
+            border: 1px;
+            color:rgb(197, 82, 82) ; 
+            font-style: normal; 
+            font-size: 25px;
+            font-family: 'Nunito', sans-serif;
+            font-weight: bold;
+            letter-spacing: normal; 
+            text-align: left;}
+
+.subtitulo {margin: 1px 3px 5px 25px;
+                padding: 2px 4px 4px 4px;
+                border: 1px;
+                color: rgb(128, 118, 118); 
+                font-style: normal; 
+                font-size: 20px;
+                font-family: 'Nunito', sans-serif;
+                font-weight: bold;
+                letter-spacing: normal; 
+                word-spacing: 1px; 
+                text-align: left;}
+
+#textoNav{margin: 5px 3px;
+    padding: 6px;
+    color: rgb(65, 62, 62); 
+    font-style: normal; 
+    font-size: 18px;
+    font-weight: 500; 
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: normal;
+    text-transform: initial;
+   
+}
+
+
+.fondoSlogan{ background-image: url(./imagenes/agrimensura.jpg);
+    height: 35em;
+    opacity: 60%;
+    background-size:cover ;
+    background-position: top;
+    background-repeat: no-repeat;
+    }
+
+.slogan {margin-left: 35px ;
+        padding-top: 25px;
+        padding-left:4px ;
+        border: 1px;
+        color: rgb(65, 62, 62); 
+        font-style: normal; 
+        font-size: 40px;
+        font-family: 'Nunito', sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px; 
+        text-align: left;
+        display: flex; 
+        justify-content: start;
+        align-items: flex-start;} 
+
+.parrafosSecciones1{margin-left:35px ; 
+        width: 500px;
+        padding-top: 25px;
+        padding-left:4px;
+        border: 1px;
+        display: flex; 
+        justify-content: start;
+        align-items: flex-start;
+        color: rgb(65, 62, 62); 
+        font-style: normal; 
+        font-size: 20px; 
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: normal;
+        text-align: justify; 
+        text-transform: initial; 
+        line-height: normal;}
+
+.Footer1{height: 15em;
+            width: 100%;
+            border-top: 5px solid rgb(197, 82, 82);
+            background: linear-gradient(to bottom, rgb(128, 118, 118), rgb(65, 62, 62));}
+
+.F1Logo{margin-top:15px;
+            padding: 6px;
+            border: 1px;
+            color: white; 
+            font-style: normal; 
+            font-size: 15px;
+            font-weight: bold;
+            font-family: 'Nunito', sans-serif;
+            font-weight: bold;
+            letter-spacing: 3px;
+            word-spacing: 2px;
+            text-align: center;
+            }
+
+.F1Subtitulo{margin: 3px;
+                padding: 6px;
+                border: 1px;
+                color: white; 
+                font-style: normal; 
+                font-size: 12px;
+                font-weight: lighter;
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: 3px;
+                word-spacing: 2px;
+                text-align: center;
+            }
+
+         
+.F1Datos{
+        margin-top: 15px;
+        padding: 3px;
+        border: 1px;
+        color: white; 
+        font-style: normal; 
+        font-size: 10px;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        text-align: center;}
+
+.cajaMapa{margin-top: 20px;
+           height: 12em;
+           }
+
+.Mapa{margin-left:100px;
+        width: 17em;
+        height: 11em;
+        overflow: hidden;           
+                }
+
+                
+/*QUIENES SOMOS*/
+.fondoTotal2 {width: 100%; 
+    margin: auto;
+    background-color:rgb(231, 226, 226)}
+
+#SegundoFondo{background-color: white ;
+        height: 7em; 
+        width: 100%;
+        border: 3px rgb(197, 82, 82) solid;}
+
+.tseccion2 {margin: auto;
+            padding: 6px;
+            border: 1px;
+            color: white; 
+            font-style: normal; 
+            font-size: 50px; 
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 1px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;}
+
+.fondoTitulo2{ background-image: url(./imagenes/quienes-somos.jpg);
+                height: 7em; 
+                width: 100%;
+                background-position: center;
+                opacity: 60%;
+                background-size: cover;
+                background-repeat: no-repeat;
+                }
+                
+.pBajada2{margin:70px auto 70px auto;
+                width: 60em;
+                padding: 30px;
+                border: 1px;
+                color: rgb(128, 118, 118); 
+                font-style: normal; 
+                font-size: 20px; 
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                text-align: justify; 
+                text-transform: initial; 
+                line-height: normal;
+                }
+#card {padding: 25px;
+
+}
+
+#nombresSec2{margin: 5px;
+                padding: 3px;
+                border: 1px;
+                color: rgb(197, 82, 82); 
+                font-style: normal;
+                font-weight: 100;
+                font-size: 22px; 
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: 1px;
+                text-align: center; 
+                text-transform: initial; 
+                line-height: normal;}
+
+#pSecc2{margin:3px;
+                padding: 3px;
+                border: 1px;
+                color: rgb(128, 118, 118); 
+                font-style: normal; 
+                font-size: 15px; 
+                font-family: 'Nunito', sans-serif;
+                letter-spacing: normal;
+                text-align: justify; 
+                text-transform: initial; 
+                line-height: normal;}
+.Footer2{height: 12em;
+        width: 100%;
+        border-top: 5px solid rgb(197, 82, 82);
+        background: linear-gradient(to bottom, rgb(128, 118, 118), rgb(65, 62, 62));}
+
+.F2Logo{margin:5px 3px 3px 3px;
+    padding: 3px;
+    border: 1px;
+    color: white; 
+    font-style: normal; 
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    text-align: center;
+    }
+
+.F2Subtitulo{margin: 3px 3px 3px 3px;
+        padding: 3px;
+        border: 1px;
+        color: white; 
+        font-style: normal; 
+        font-size: 12px;
+        font-weight: lighter;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        text-align: center;
+    }
+
+ 
+.F2Datos{
+    margin:25px;
+    padding: 10px;
+    border: 1px;
+    color: white; 
+    font-style: normal; 
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;}
+
+/*SERVICIOS*/
+
+.fondoTitulo3{ background-image: url(./imagenes/servicios.jpg);
+    height: 7em; 
+    width: 100%;
+    background-position: center;
+    opacity: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+
+.tseccion3 {margin: auto;
+        padding: 6px;
+        border: 1px;
+        color: rgb(197, 82, 82); 
+        font-style: normal; 
+        font-size: 50px; 
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;}
+
+.subtitulo3{
+        margin: 5px;
+        padding:3px ;
+        border-bottom:solid 2px rgb(128, 118, 118);color: rgb(197, 82, 82); 
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px; 
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        text-align: left; 
+        text-transform: initial; 
+        line-height: normal;}
+
+#card3{ width: 60em;
+        margin: 10px 0px 20px 20px;
+        padding:10px 0px 20px 20px;
+
+}
+.pSecc3{
+        margin: 5px 0px 5px 10px;
+        padding: 2px;
+        color: rgb(128, 118, 118); 
+        font-style: normal; 
+        font-size: 15px; 
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        text-align: left; 
+        text-transform: initial; 
+        line-height: normal;}
+
+.listas3{list-style-type:disc; 
+        text-align: left;
+        margin:5px 5px 5px 10px;
+        }
+
+
+
+
+/* MIS TRAMITES*/
+
+.fondoTitulo4{ background-image: url(./imagenes/tramites.jpg);
+    height: 7em; 
+    width: 100%;
+    background-position: bottom;
+    opacity: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#Form4{width:30em ;
+        margin: auto;
+        padding: 40px;
+}
+#olvide{font-size: 13px;
+        font-weight: 50;
+        color: rgb(128, 118, 118);
+        margin: 10px;
+        padding: 6px;
+        font-family: 'Nunito', sans-serif;
+}
+#pSecc4{
+    color: rgb(128, 118, 118);
+    font-size: 15px; 
+    font-family: 'Nunito', sans-serif;
+    }
+/*CONTACTO*/
+.fondoTitulo5{ background-image: url(./imagenes/contacto.jpg);
+    height: 7em; 
+    width: 100%;
+    background-position: center;
+    opacity: 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#Form5{width:30em ;
+        margin: auto;
+        padding: 40px;
+}
+#cajaMsj{width:100% ;
+
+}
+.cbotones5{margin: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+} 
+.botones { padding: 7px;
+        border: 2px solid rgb(128, 118, 118);
+        border-radius: 3px;
+        background-color: white; 
+        color: rgb(128, 118, 118); 
+        font-style: normal; 
+        font-size: 15px; 
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1px;
+        text-align: center; 
+        text-transform: initial;
+        margin:auto;}
+
+.botones:hover{ background-color: rgb(128, 118, 118);
+                color: white;
+                border: 1px solid rgb(128, 118, 118);
+}
+
+
+/* para celulares*/
+@media only screen and (max-width: 320px)
+    {.logo {margin: 7px 0px 1px 2px;
+        padding: 3px;
+        font-size: 15px;
+       }
+
+.subtitulo {margin: 1px 0px 5px 2px;
+            padding: 3px;
+            font-size: 13px;
+            word-spacing: 1px;}
+
+.fondoSlogan{ background-image: url(./imagenes/agrimensura.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    }
+.slogan {margin-left: 25px ;
+        padding-top: 25px;         
+        font-size: 35px;
+        text-align: left;
+        display: flex; 
+        } 
+
+.parrafosSecciones1{margin-left:25px ; 
+        width: 18em;
+        padding-top: 25px;
+        padding-left:0px;
+        border: 1px;
+        font-size: 15px; 
+    }
+
+.Footer1{height: 28em;
+            width: 100%;
+            border-top: 5px solid rgb(197, 82, 82);
+            background: linear-gradient(to bottom, rgb(128, 118, 118), rgb(65, 62, 62));}
+
+.F1Logo{margin-top:15px;
+            padding: 3px; 
+            font-size: 14px;
+            text-align: center;
+            }
+
+.F1Subtitulo{margin: 1px;
+                padding: 1px; 
+                font-size: 12px;
+            }
+
+         
+.F1Datos{
+        margin-top: 15px;
+        padding: 1px;
+        font-size: 10px;
+        }
+
+.cajaMapa{margin-top: 20px;
+           height: 12em;
+           }
+
+.Mapa{margin-left:20px;
+        width: 16em;
+                }
+
+.fondoTitulo2{height: 3.5em;}
+
+.tseccion2 {
+        font-size: 30px; 
+        }
+.tseccion3 {
+        font-size: 30px; 
+                }
+.pBajada2{font-size: 13px;
+        width: 22em;
+        padding: 15px;
+        margin-top:auto;
+        margin-bottom:10px;
+        }
+#card {margin: 3px;
+    padding: 15px 1px 15px 1px ;
+}
+
+#card3{ margin: auto;
+        padding:5px;
+        width: 17em;
+}
+.Footer2{height: 15em;}
+
+.F2Datos{
+    margin:6px;
+    padding: 6px;
+   }
+}
+
+.subtitulo3{
+        margin: 5px;
+        padding:3px ;
+        font-size: 15px; 
+      }
+.pSecc3{
+        margin: 5px 0px 5px 10px;
+        padding: 2px;
+        color: rgb(128, 118, 118); 
+        font-style: normal; 
+        font-size: 12px; 
+        }
+#Form4{width:21em ;
+       }
+#Form5{width:21em ;
+        margin: auto;
+        padding: 20px
+       }
+#cajaMsj{width: 100% ;
+
+       }
+.fondoTitulo3{ 
+        height: 3.5em;
+        }
+.fondoTitulo4{ 
+        height: 3.5em;
+        }
+.fondoTitulo5{ height: 3.5em;
+                }
+
+.cbotones5{margin: 0px;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+} 
+.botones { padding: 7px;
+        border: 2px solid rgb(128, 118, 118);
+        border-radius: 3px;
+        font-size: 15px; 
+        }
+
+/* para Tablets*/
+@media only screen and (min-width: 768px)
+    {.logo {margin: 7px 3px 1px 3px;
+        padding: 3px;
+        font-size: 20px;
+      }
+
+.subtitulo {margin: 1px 3px 5px 3px;
+            padding: 3px;
+            border: 1px; 
+            font-size: 16px;
+            }
+
+#textoNav{margin: 5px 3px;
+    padding: 3px;
+    font-style: normal; 
+    font-size: 13px;
+  
+   
+}
+.fondoSlogan{ background-image: url(./imagenes/agrimensura.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+
+    }
+.slogan {margin-left: 35px ;
+        padding-top: 25px;         
+        font-size: 33px;
+        text-align: left;
+        
+        } 
+
+.parrafosSecciones1{width: 350px;
+        margin-left:40px ; 
+        padding-top: 25px;
+        font-size: 18px; 
+    }
+
+.Footer1{height: 15em;
+            width: 100%;
+            border-top: 5px solid rgb(197, 82, 82);
+            background: linear-gradient(to bottom, rgb(128, 118, 118), rgb(65, 62, 62));}
+
+.F1Logo{margin-top:15px;
+            padding: 3px; 
+            font-size: 16px;
+            text-align: center;
+            }
+
+.F1Subtitulo{margin: 1px;
+                padding: 1px; 
+                font-size: 14px;
+            }
+
+         
+.F1Datos{
+        margin-top: 15px;
+        padding: 1px;
+        font-size: 10px;
+        }
+
+.cajaMapa{width: 25em;
+           display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;}
+
+.Mapa{margin-left:40px;
+    width: 25em;
+                }
+
+.tseccion2 {font-size: 45px; 
+            }
+.tseccion3 {font-size: 45px; 
+            }
+.fondoTitulo2{ height: 3.5em;   }
+                
+.fondoTitulo3{ 
+                height: 3.5em;   }
+.fondoTitulo4{ 
+                height: 3.5em;   }
+.fondoTitulo{ 
+             height: 3.5em;   }                
+                                                                  
+.pBajada2{margin:50px auto 50px auto;
+                width: 40em;
+                padding: 20px;
+                font-size: 17px;
+                word-spacing: 1px;
+                }
+
+#card3 {margin:auto;
+        width: 45em;
+    padding: 20px;}
+
+.subtitulo3{
+        font-size: 16px; 
+        }
+.pSecc3{
+        margin: 5px 0px 5px 10px;
+        padding: 2px;
+        font-size: 13px; 
+        }
+
+.listas3{list-style-type:disc; 
+        text-align: left;
+        margin:5px 5px 5px 10px;
+        }
+
+#Form4{width:30em ;
+        }
+#Form5{width:30em ;
+         margin: auto;
+         padding: 20px
+        }
+#cajaMsj{width:30em ;
+
+        }
+.Footer2{height: 13em;}
+
+.F2Datos{
+    margin:6px;
+    padding: 6px;
+   }
+
+}
